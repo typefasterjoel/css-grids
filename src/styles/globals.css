@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.v-grid {
+  width: 100%;
+  margin: 1rem;
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 1.5rem;
+}
+
+.v-grid-area {
+  display: grid;
+  gap: 1rem;
+  grid-auto-columns: 1fr;
+  grid-template-areas:
+    "Header Header Header Header"
+    "Tall . . ."
+    "Tall . Medium Medium"
+    "Tall Footer Footer Footer";
+}
+
+.v-grid-area-header {
+  grid-area: Header;
+}
+
+.v-grid-area-tall {
+  grid-area: Tall;
+}
+
+.v-grid-area-medium {
+  grid-area: Medium;
+}
+
+.v-grid-area-footer {
+  grid-area: Footer;
+}
