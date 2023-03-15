@@ -10,12 +10,12 @@ function Navigation() {
       >
         Tailwind
       </Link>
-      <Link
+      {/* <Link
         href="/bootstrap"
         className="block rounded-lg bg-gradient-to-br from-sky-400 to-sky-600 px-6 py-4 text-center text-lg font-bold text-white shadow-lg transition-all hover:scale-125 hover:bg-sky-700"
       >
         Bootstrap
-      </Link>
+      </Link> */}
       <Link
         href="/vanilla"
         className="block rounded-lg bg-gradient-to-br from-sky-400 to-sky-600 px-6 py-4 text-center text-lg font-bold text-white shadow-lg transition-all hover:scale-125 hover:bg-sky-700"
